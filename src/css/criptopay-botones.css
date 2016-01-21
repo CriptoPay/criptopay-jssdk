@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-ene-2016, 18:39:17
+    Author     : VGPASTOR
+*/
+/* line 13, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000313}}
+.criptopay-boton {
+  background-color: rgba(255, 100, 100, 0.35);
+  background-image: url("../imagenes/BitcoinTrans.png");
+  background-position: -30px center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  border: 1px solid #d11100;
+  border-radius: 25px;
+  box-shadow: 0 0 0 0 #f7c5c0 inset;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  height: 60px;
+  padding: 12px 30px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  width: 250px;
+}
+/* line 32, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000332}}
+.criptopay-boton:hover {
+  background-color: #ea5250;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+/* line 39, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000339}}
+.criptopay-boton:active {
+  background-image: url("../imagenes/Bitcoinsvg_.png");
+  position: relative;
+  top: 1px;
+}
