@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-ene-2016, 17:48:13
+    Author     : carmenbarrososantillana
+*/
+
+
+@naranja:#FF8000;
+@gris:#d8d8d8;
+@font-family:Roboto,sans-serif;
+@blanco:#fff;
+@grisOscuro:#585858;
+@negro:#2E2E2E;
+
+@color_1: #ffffff;
+@fuente_raleway: Raleway,sans-serif;
+
+ @keyframes latido{
+                     from { transform: none; }
+                     25% { transform: scale(0.6); }
+                     50% {transform: none;}
+                     75% {transform: scale(0.6);}
+                     to { transform: none; }
+                     }
+
+
+#criptopay-root{
+    display: none;
+    position: absolute;
+    width: 300px;
+    z-index:999999;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 5px 10px 10px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 5px 10px 10px 0px rgba(102,102,102,1);
+    box-shadow: 5px 10px 10px 0px rgba(102,102,102,1);
+    border-radius: 10px;
+    font-family: @fuente_raleway;
+
+    header{
+    border-bottom: 1px solid #000000;
+    padding: 25px;
+    font-size: 25px;
+    background-color: grey;
+    color: #FFFFFF;
+    
+        .close{
+            margin: -15px;
+            float:right;
+            cursor: pointer;
+        }
+
+        .titulo{
+
+        }
+    }
+    
+    footer{
+        padding: 10px;
+    }
+    
+    .bitcoinaddress{
+        width: 120px;
+        margin: 5px auto;
+    }
+    
+    > div{
+        border-bottom: 1px solid #000000;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.criptopay-boton{
+   
+    &.icon_big{
+         font-size: 22px;
+         
+         p{
+        margin:0 0 15px -15px;
+        padding:8px;
+        line-height: 50px;
+         }
+                    .criptopay-thumb{
+               height:80px;
+               width:89px;
+               float:left;
+               margin: 1.5px;
+               background-repeat: no-repeat;
+               background-size:80% 80%;
+
+
+               &.donacion{
+                   background-image: url("../imagenes/donacion1.png");
+                     
+                      
+               }
+                }
+        
+    }
+     &.icon_medium{
+        
+         font-size: 18px;
+         
+         p{
+        margin:2px;
+        padding:3px;
+        line-height: 20px;
+         }
+                    .criptopay-thumb{
+               height:60px;
+               width:69px;
+               float:left;
+               margin: 1.5px;
+               background-repeat: no-repeat;
+               background-size:80% 80%;
+
+
+               &.donacion{
+                   background-image: url("../imagenes/donacion1.png");
+               }
+                }
+        
+    }
+     &.icon_small{
+        
+        font-size: 14px;
+        
+          p{
+        margin:2px;
+        padding:2px;
+        line-height:34px;
+         }
+             .criptopay-thumb{
+               height: 40px;
+               width:43px;
+               float:left;
+               margin: 1.5px;
+               background-repeat: no-repeat;
+               background-size:100% 100%;
+
+
+               &.donacion{
+                   background-image: url("../imagenes/donacion1.png");
+               }
+                }
+        
+    }
+   
+   
+    
+    padding-left:5px;
+    padding-right:5px;
+   
+    display: block;
+    font-family: @font-family;
+    
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    margin:20px;
+
+    &:hover {
+        
+                 
+                    .criptopay-thumb{
+                      animation:4s latido infinite;
+                      
+                   }
+                         
+               
+            
+                
+	}
+	
+    
+    
+    p{
+       
+        float: left;
+        color:@grisOscuro;
+    }
+    
+    
+    
+    
+    
+}
+
+

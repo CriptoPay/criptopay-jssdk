@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-ene-2016, 18:03:58
+    Author     : carmenbarrososantillana
+*/
+#criptopay-root {
+  display: none;
+  position: absolute;
+  width: 300px;
+  z-index: 999999;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 5px 10px 10px 0px #666666;
+  -moz-box-shadow: 5px 10px 10px 0px #666666;
+  box-shadow: 5px 10px 10px 0px #666666;
+  border-radius: 10px;
+  font-family: Raleway, sans-serif;
+}
+#criptopay-root header {
+  border-bottom: 1px solid #000000;
+  padding: 25px;
+  font-size: 25px;
+  background-color: grey;
+  color: #FFFFFF;
+}
+#criptopay-root header .close {
+  margin: -15px;
+  float: right;
+  cursor: pointer;
+}
+#criptopay-root footer {
+  padding: 10px;
+}
+#criptopay-root .bitcoinaddress {
+  width: 120px;
+  margin: 5px auto;
+}
+#criptopay-root > div {
+  border-bottom: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+.criptopay-boton {
+  border: 2px solid #d8d8d8;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #dbdbdb;
+  background: -moz-linear-gradient(left, #dbdbdb 0%, #dbdbdb 10%, #e2e2e2 34%, #f0edf0 51%, #d1d1d1 99%, #d1d1d1 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #dbdbdb), color-stop(10%, #dbdbdb), color-stop(34%, #e2e2e2), color-stop(51%, #f0edf0), color-stop(99%, #d1d1d1), color-stop(100%, #d1d1d1));
+  background: -webkit-linear-gradient(left, #dbdbdb 0%, #dbdbdb 10%, #e2e2e2 34%, #f0edf0 51%, #d1d1d1 99%, #d1d1d1 100%);
+  background: -o-linear-gradient(left, #dbdbdb 0%, #dbdbdb 10%, #e2e2e2 34%, #f0edf0 51%, #d1d1d1 99%, #d1d1d1 100%);
+  background: -ms-linear-gradient(left, #dbdbdb 0%, #dbdbdb 10%, #e2e2e2 34%, #f0edf0 51%, #d1d1d1 99%, #d1d1d1 100%);
+  background: linear-gradient(to right, #dbdbdb 0%, #dbdbdb 10%, #e2e2e2 34%, #f0edf0 51%, #d1d1d1 99%, #d1d1d1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbdbdb', endColorstr='#d1d1d1', GradientType=1);
+  display: block;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 20px;
+  box-shadow: 5px 5px 2px #888888;
+}
+.criptopay-boton.size_big {
+  height: 50px;
+  font-size: 22px;
+}
+.criptopay-boton.size_big p {
+  margin: 0 0 15px 0;
+  padding: 8px;
+  line-height: 30px;
+}
+.criptopay-boton.size_big .criptopay-thumb {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 2.5px;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+}
+.criptopay-boton.size_big .criptopay-thumb.donacion {
+  background-image: url("../imagenes/btc_heart.png");
+}
+.criptopay-boton.size_medium {
+  height: 30px;
+  font-size: 18px;
+}
+.criptopay-boton.size_medium p {
+  margin: 2px;
+  padding: 3px;
+  line-height: 20px;
+}
+.criptopay-boton.size_medium .criptopay-thumb {
+  height: 33px;
+  width: 33px;
+  float: left;
+  margin: 1.5px;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+}
+.criptopay-boton.size_medium .criptopay-thumb.donacion {
+  background-image: url("../imagenes/btc_heart.png");
+}
+.criptopay-boton.size_small {
+  height: 25px;
+  font-size: 14px;
+}
+.criptopay-boton.size_small p {
+  margin: 2px;
+  padding: 2px;
+  line-height: 12px;
+}
+.criptopay-boton.size_small .criptopay-thumb {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin: 1.5px;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+}
+.criptopay-boton.size_small .criptopay-thumb.donacion {
+  background-image: url("../imagenes/btc_heart.png");
+}
+.criptopay-boton:hover {
+  background: -webkit-gradient(left top, right top, color-stop(0%, #c7c3c7), color-stop(10%, #c7c3c7), color-stop(40%, #dbdbdb), color-stop(49%, #e3e3e3), color-stop(99%, #bdb9bd), color-stop(100%, #bdb9bd));
+  background: -webkit-linear-gradient(left, #c7c3c7 0%, #c7c3c7 10%, #dbdbdb 40%, #e3e3e3 49%, #bdb9bd 99%, #bdb9bd 100%);
+  background: -o-linear-gradient(left, #c7c3c7 0%, #c7c3c7 10%, #dbdbdb 40%, #e3e3e3 49%, #bdb9bd 99%, #bdb9bd 100%);
+  background: -ms-linear-gradient(left, #c7c3c7 0%, #c7c3c7 10%, #dbdbdb 40%, #e3e3e3 49%, #bdb9bd 99%, #bdb9bd 100%);
+  background: linear-gradient(to right, #c7c3c7 0%, #c7c3c7 10%, #dbdbdb 40%, #e3e3e3 49%, #bdb9bd 99%, #bdb9bd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c3c7', endColorstr='#bdb9bd', GradientType=1);
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+.criptopay-boton:active {
+  position: relative;
+  top: 1px;
+}
+.criptopay-boton p {
+  float: left;
+  color: #585858;
+}
+/*# sourceMappingURL=button_sizes.css.map */

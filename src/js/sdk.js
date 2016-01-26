@@ -55,6 +55,7 @@ function CrearBotonDonacion(elemento){
     switch(elemento.getAttribute("data-layer")){
         case 'simple':
             AgregarThumb(elemento,"donacion");
+            
         break;
     case 'completa':
             AgregarThumb(elemento,"donacion");
@@ -135,14 +136,36 @@ function Texto(elemento,texto){
     div.innerHTML = texto;
     elemento.appendChild(div,elemento);
 }
-
+/*======================AQUÍ SE CAMBIAN LOS ESTILOS===================================*/
 function AgregarThumb(elemento,tipo){
-    AddStyle("criptopaysdk-css","../src/css/criptopay.css");
+    AddStyle("criptopaysdk-css","../src/css/button_icon.css");
     div = document.createElement('div');
     div.className = "criptopay-thumb";
     div.className += " "+tipo;
     elemento.appendChild(div,elemento);
 }
+/*function AgregarThumb(elemento,tipo){
+    AddStyle("criptopaysdk-css","../src/css/button_sizes.css");
+    div = document.createElement('div');
+    div.className = "criptopay-thumb";
+    div.className += " "+tipo;
+    elemento.appendChild(div,elemento);
+}*/
+/*function AgregarThumb(elemento,tipo){
+    AddStyle("criptopaysdk-css","../src/css/criptopay.css");
+    div = document.createElement('div');
+    div.className = "criptopay-thumb";
+    div.className += " "+tipo;
+    elemento.appendChild(div,elemento);
+}*/
+/*function AgregarThumb(elemento,tipo){
+    AddStyle("criptopaysdk-css","../src/css/criptopay-botones.css");
+    div = document.createElement('div');
+    div.className = "criptopay-thumb";
+    div.className += " "+tipo;
+    elemento.appendChild(div,elemento);
+}*/
+
 
 function AgregarContador(elemento,tipo){
     div = document.createElement('div');

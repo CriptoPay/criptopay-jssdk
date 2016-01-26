@@ -7,8 +7,6 @@ and open the template in the editor.
     Created on : 17-ene-2016, 18:39:17
     Author     : VGPASTOR
 */
-/* line 13, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000313}}
 .criptopay-boton {
   background-color: rgba(255, 100, 100, 0.35);
   background-image: url("../imagenes/BitcoinTrans.png");
@@ -29,8 +27,6 @@ and open the template in the editor.
   transition-duration: 0.4s;
   width: 250px;
 }
-/* line 32, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000332}}
 .criptopay-boton:hover {
   background-color: #ea5250;
   transition-duration: 0.4s;
@@ -38,10 +34,9 @@ and open the template in the editor.
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
 }
-/* line 39, F:\EN DESARROLLO\criptopay-jssdk\src\less\criptopay-botones.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/EN DESARROLLO\/criptopay-jssdk\/src\/less\/criptopay-botones\.less}line{font-family:\0000339}}
 .criptopay-boton:active {
   background-image: url("../imagenes/Bitcoinsvg_.png");
   position: relative;
   top: 1px;
 }
+/*# sourceMappingURL=criptopay-botones.css.map */
